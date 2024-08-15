@@ -3,7 +3,7 @@ In this project, we will learn how to build REST APIs for a simple Banking appli
 
 #  Test Application Commands
 
-## 1. Login Method
+### 1. Login Method
 HTTP Method: POST 
 URL: http://localhost:9091/api/account/login
 Body: (JSON) 
