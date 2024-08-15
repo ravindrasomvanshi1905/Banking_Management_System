@@ -49,14 +49,14 @@ URL: http://localhost:9091/api/account/{id}/update
 
 Body: (JSON)
 
-  {
+{
     "email": "newEmail@example.com",
     "password": "newPassword",
     "accountHolderName": "John Doe Updated",
     "balance": 2000.0,
     "contact": "0987654321",
     "address": "456 New Street, New City, New Country"
-  }
+}
   
 ### Note: Replace {id} with the actual account ID.
 _______________________________________________________________
