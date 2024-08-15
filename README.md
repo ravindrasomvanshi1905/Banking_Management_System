@@ -13,7 +13,7 @@ Body: (JSON)
     }
 _______________________________________________________________
 
-# 2. Create Account Method
+### 2. Create Account Method
 HTTP Method: POST
 URL: http://localhost:9091/api/account/create
 Body: (JSON)
@@ -27,14 +27,14 @@ Body: (JSON)
   }
 _______________________________________________________________
 
-# 3. Get Account Details
+### 3. Get Account Details
 HTTP Method: GET
 URL: http://localhost:9091/api/account/{id}
-# Note: Replace {id} with the actual account ID.
+### Note: Replace {id} with the actual account ID.
 
 _______________________________________________________________
 
-# 4. Update Account Details
+### 4. Update Account Details
 HTTP Method: PUT
 URL: http://localhost:9091/api/account/{id}/update
 Body: (JSON)
@@ -46,33 +46,33 @@ Body: (JSON)
     "contact": "0987654321",
     "address": "456 New Street, New City, New Country"
   }
-# Note: Replace {id} with the actual account ID.
+### Note: Replace {id} with the actual account ID.
 _______________________________________________________________
 
-# 5. Deposit Money
+### 5. Deposit Money
 HTTP Method: POST
 URL: http://localhost:9091/api/account/{id}/deposite
 Body: (JSON)
   {
     "amount": 500.0
   }
-# Note: Replace {id} with the actual account ID.
+### Note: Replace {id} with the actual account ID.
 _______________________________________________________________
 
-# 6. Withdraw Money
+### 6. Withdraw Money
 HTTP Method: POST
 URL: http://localhost:9091/api/account/{id}/withdraw
 Body: (JSON)
   {
     "amount": 200.0
   }
-# Note: Replace {id} with the actual account ID.
+### Note: Replace {id} with the actual account ID.
 _______________________________________________________________
 
-# 7. Delete Account
+### 7. Delete Account
 HTTP Method: DELETE
 URL: http://localhost:9091/api/account/{id}/delete
-# Note: Replace {id} with the actual account ID.
+### Note: Replace {id} with the actual account ID.
 
 
 
